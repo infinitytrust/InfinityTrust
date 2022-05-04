@@ -612,10 +612,6 @@ contract InfinityFinance is ERC20Detailed {
         treasuryReceiver = 0x9CBF9fd973F9D6Df2bF66742a7B6c26CaEa143C8;
         riskControlFundReceiver = 0xf4A89c419388C108bF7ec9B6FC6c6eAf30DDBb06;
 
-        // autoLiquidityReceiver = 0xbd7fA529dEfbe739034b0b8b254f1e1bD8bE6e39;
-        // treasuryReceiver = 0xF8bB4b9632a754c266B5775581c6545B71B56e6B;
-        // riskControlFundReceiver = 0x1F7C2168713f7c18CDFF6F02513b6dda39A771aE;
-
         _allowedFragments[address(this)][address(router)] = ~uint256(0);
         pairAddress = pair;
         pairContract = IPancakeSwapPair(pair);
